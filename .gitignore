@@ -1,0 +1,9 @@
+# Admin panel — local only, do not deploy
+admin.html
+
+# OS & editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+README.md
