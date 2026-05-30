@@ -324,6 +324,9 @@ function applyContact() {
     github.style.display = c.github ? '' : 'none';
   }
 
+  const navGithub = document.getElementById('navGithub');
+  if (navGithub && c.github) navGithub.href = c.github;
+
   const telegram = document.getElementById('contactTelegram');
   if (telegram) {
     telegram.href         = c.telegram || '#';
